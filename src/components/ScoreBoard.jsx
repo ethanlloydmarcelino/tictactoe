@@ -49,7 +49,7 @@ function ScoreBoard() {
       {winner === 0 ? (
         <Box className="boxName">
           <Typography variant="h4" sx={{ fontWeight: "700" }}>
-            In Progress
+            In Progress...
           </Typography>
         </Box>
       ) : (
