@@ -4,7 +4,6 @@ import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import CircleOutlinedIcon from "@mui/icons-material/CircleOutlined";
 import CloseOutlinedIcon from "@mui/icons-material/CloseOutlined";
-import RefreshIcon from "@mui/icons-material/Refresh";
 import useStore from "../store/store";
 import { useShallow } from "zustand/react/shallow";
 import ScoreBoard from "./ScoreBoard";
@@ -77,11 +76,6 @@ function SquareBoard() {
       return <CloseOutlinedIcon sx={{ fontSize: "4rem", color: "#F00" }} />;
   };
 
-  const restartGame = () => {
-    setWinner(0);
-    setData([0, 0, 0, 0, 0, 0, 0, 0, 0]);
-    setNextIcon(1);
-  };
   return (
     <div className="squareboard">
       <Stack

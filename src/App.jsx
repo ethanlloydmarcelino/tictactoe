@@ -1,12 +1,9 @@
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
-import Intro from './components/Intro';
 import NavigationBar from './components/NavigationBar';
 import useStore from './store/store';
-import './App.css';
-import Board from './components/Board';
-import BoardGame from './components/BoardGame';
 import SquareBoard from './components/SquareBoard';
+import './App.css';
 
 import { Amplify } from 'aws-amplify';
 import amplifyconfig from './amplifyconfiguration.json';
