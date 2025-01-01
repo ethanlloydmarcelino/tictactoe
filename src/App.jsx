@@ -8,6 +8,10 @@ import Board from './components/Board';
 import BoardGame from './components/BoardGame';
 import SquareBoard from './components/SquareBoard';
 
+import { Amplify } from 'aws-amplify';
+import amplifyconfig from './amplifyconfiguration.json';
+Amplify.configure(amplifyconfig);
+
 
 export default function App() {
   const {isDark} = useStore();
