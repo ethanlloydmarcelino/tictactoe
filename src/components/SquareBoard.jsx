@@ -7,6 +7,7 @@ import CloseOutlinedIcon from "@mui/icons-material/CloseOutlined";
 import RefreshIcon from "@mui/icons-material/Refresh";
 import useStore from "../store/store";
 import { useShallow } from "zustand/react/shallow";
+import ScoreBoard from "./ScoreBoard";
 
 function SquareBoard() {
   const [data, setData, nextIcon, setNextIcon, winner, setWinner] = useStore(
@@ -202,6 +203,7 @@ function SquareBoard() {
           </Paper>
         </Box>
       </Stack>
+      <ScoreBoard />
     </div>
   );
 }

@@ -51,6 +51,16 @@
   justify-content: center;
 }
 
+.boxName {
+  background-color: inherit;
+  padding: 10px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 /* 
 .mainDiv {
   display: flex;
