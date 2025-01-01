@@ -40,3 +40,63 @@
 .read-the-docs {
   color: #888;
 }
+
+.squareboard {
+  margin-top: 40px;
+}
+
+.boxplacement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px;
+}
+
+.gameWindow {
+  background-color: inherit;
+  border-radius: 37px;
+}
+
+.tickCardRow {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tickCard {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxName {
+  background-color: inherit;
+  padding: 10px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxResult {
+  background-color: inherit;
+  color: inherit;
+  padding: 10px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.boxResult:hover {
+  cursor: pointer;
+}  */

@@ -4,6 +4,9 @@ import Intro from './components/Intro';
 import NavigationBar from './components/NavigationBar';
 import useStore from './store/store';
 import './App.css';
+import Board from './components/Board';
+import BoardGame from './components/BoardGame';
+import SquareBoard from './components/SquareBoard';
 
 
 export default function App() {
@@ -20,7 +23,7 @@ export default function App() {
       <CssBaseline />
       <>
         <NavigationBar />
-        <Intro />
+        <SquareBoard />
       </>
     </ThemeProvider>
   );
